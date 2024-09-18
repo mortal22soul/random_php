@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(14, 10, 22);
+}
+
+img {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: auto;
+  padding: 2rem;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  span {
+    font-size: 4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 1rem;
+  outline: none;
+  margin: auto;
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
